@@ -1,0 +1,179 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.cajaheader1{
+    display: flex;
+    flex-direction: flex-start;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.navbar{
+    width: 50%;
+    position: relative;
+    top: 40px;
+    margin-left: -100px;
+}
+
+.frasedenavbar{
+    background-color: white;
+    padding: 10px 3px;
+    color: #666;
+}
+
+.lupa{
+    position: relative;
+    bottom: 18px;
+    left: 150px;
+}
+
+.manoyfrase{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.uldelheader0{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.uldelheader1, .uldelheader2{
+    display: flex;
+    width: 100%;
+}
+
+.uldelheader1 li, .uldelheader2 li{
+    padding-right: 20px;
+}
+
+.uldelheader1{
+    margin-left: 30px;
+    margin-right: 650px;
+}
+
+.burger-menu{
+    background-color: #1259c3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.basadoúltimavisita{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+article{
+    padding: 0px 10px;
+}
+
+.caja{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+p{
+    font-size:12px
+}
+
+h2{
+    font-size: 24px;
+    color: #666;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.precios{
+    font-size: 18px
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+}
+
+.descuentos, .descripciones{
+    font-size: 16px;
+}
+
+.precios{
+    width: 30%;
+}
+
+.descuentos{
+    color: #39b54a;
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+    width: 70%;
+}
+
+
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.Copyright{
+    display:flex;
+    justify-content: center;
+}
+
+.tarjeta, .cajaregalo, .escudo{
+    width: 2em;
+    height: 2em;
+    color: #EAC926;
+}
+
+@media (max-width=360px){
+    .descripciones{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .uldelheader0{
+        display: none;
+    }
+}
+
+@media (max-width=768px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+@media (min-width=769px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}

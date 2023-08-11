@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto';
+    justify-content: auto;
+    box-sizing: content-box;
+}
+
+header{
+    background-color: #EAC926;
+    width: 100vw
+}
+
+.navbar .frasedenavbar{
+    background-color: white;
+    color: gray;
+    padding-left: 5px;
+    padding-right: 0px;
+    font-style: normal;
+}
+
+.lupa{
+    margin-top: 10px;
+    margin-bottom: -5px;
+    background-color: white;
+}
+
+.manoyfrase{
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.manos{
+    margin-bottom: -8px;
+    padding-right: 2px;
+}
+
+header ul{
+    justify-content: left;
+    display:none
+}
+
+div .burger-menu{
+    padding-left: 50%;
+}
+
+body{
+    background-color: white;
+    width: 100vw
+}
+
+.publicidad{
+    padding-left: 0px;
+    width: 100%;
+}
+
+main{
+    justify-content: center;
+    width: 90%;
+}
+
+p{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+body img{
+    padding-left: 0%;
+    justify-content: center;
+}
+
+.cafetera{
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border: solid 2px #ebebeb ;
+}
+
+.compu{
+    padding-bottom: 10px;
+    border: solid 2px #ebebeb ;
+}
+
+.celu{
+    padding-bottom: 10px;
+    border: solid 2px #ebebeb ;
+}
+
+.tele{
+    padding-bottom: 10px;
+    border: solid 2px #ebebeb ;
+}
+
+ul .precios{
+    font-size: 18px;
+}
+
+ul .descuentos{
+    font-size: 16px;
+    color: green;
+}
+
+ul .descripciones{
+    font-size: 16px;
+}
+
+h3{
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+@media (min-width:361px){
+    body{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+}
+
+@media (min-width:769px){
+    body{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
